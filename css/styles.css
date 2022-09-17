@@ -1,0 +1,177 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* IDs */
+#title {
+  background-color: #ff4c68;
+  z-index: 1;
+  color: white;
+}
+
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  z-index: 2;
+}
+
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #ef8172;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 5% 13%;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 13%;
+  text-align: center;
+}
+
+#footer {
+  padding: 3% 15%;
+  background-color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/* Navegation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+/* Title section */
+.container-fluid {
+  padding: 1% 17%;
+  overflow: hidden;
+}
+
+.apple {
+  margin-right: 1rem;
+}
+
+.download {
+  padding-top: 10%;
+}
+
+.dog-image {
+  overflow: hidden;
+  transform: rotate(22deg);
+  position: relative;
+  top: 6rem;
+  left: 7rem;
+}
+
+/* Features section */
+.feature {
+  text-align: center;
+  padding: 0 4rem;
+  margin: 3.5rem 0;
+}
+
+.f-icon {
+  font-size: 5rem;
+  color: #ef8172;
+}
+
+.f-icon:hover{
+  color: #ff4c68;
+}
+
+.f-title {
+  font-size: 1.5rem;
+  margin: 25px;
+}
+
+.f-p {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+.t-dog-pic {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press Section */
+.logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* Carousels */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+.pricing_col {
+  padding: 3% 2%;
+}
+
+/* Call to action */
+.cta-title {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+/* Footer */
+.footer-icons {
+  padding: 0 43%;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  #title{
+    text-align: center;
+  }
+
+  .dog-image {
+    top: 3rem;
+    left: 0;
+    transform: rotate(0);
+  }
+
+  .footer-icons {
+    padding: 0 30%;
+  }
+}
